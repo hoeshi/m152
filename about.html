@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>home</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+
+	<div id="navbar">
+		  	<ul>
+				<li class="anti">Smoking kills</li>
+				<li><a class="active" href="#">About</a></li>
+				<li><a href="filminfos.html">Filminfos</a></li>
+				<li><a href="schauspieler.html">Schauspieler</a></li>
+				<li><a href="index.html">Werbung</a></li>
+			</ul>
+	</div>
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+<h1>Smoking Kills</h1>
+
+ 	<h2 class="About">About</h2>
+	<div class="container"><br>
+ 
+		<main>
+			Dieser Film wurde als ein Projekt für das Modul 152 erstellt. <br>
+			Alle Szenen wurden eigenhändig gedreht. <br>
+			Der Film wurde mit einem iPhone 11 Pro Max aufgenommen. <br>
+			Geschnitten wurde es mit Adobe Rush. Jedes Mitglieg ist einverstanden <br>
+			bei der Veröffentlichung dieser Website und des Videos. <br>
+			<br>
+			Bei Fragen oder Bemerkungen melden sie sich hier. <br>
+			hoeschelerp@bzz.ch
+			<br>
+			<br>Ich hoffe sie geniessen den Film.
+		</main>
+	</div>
+	
+<footer id="footer">
+	Copyright © Alle Rechte gehören Patrick Höscheler
+</footer>
+</body>
+</html>
+

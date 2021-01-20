@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>home</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div id="navbar">
+		<ul>
+			<li class="anti">Smoking kills</li>
+			<li><a href="about.html">About</a></li>
+			<li><a class="active" href="#">Filminfos</a></li>
+			<li><a href="schauspieler.html">Schauspieler</a></li>
+			<li><a href="index.html">Werbung</a></li>
+		</ul>
+	</div>
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+	<h1> Smoking Kills</h1>
+		
+<h2 class="infos">Filminfos</h2>
+
+<div class="container">
+	<br>
+  
+	<div class="text">
+		Der Film wurde an mehreren Orten gedreht. Die meisten Szenen befinden sich draussen,
+		obwohl das Wetter nicht perfekt war.
+	</div>
+	<div class="ort">
+		<img id= "dietikon" src="img/dietikon.JPG" alt="dietikon" width=""
+         height=""> <br> 
+		
+		<img id="bhf" src="img/bahnhof.jpg" alt="bahnhof" width="500"
+         height="">
+	</div>
+	<div id="pictext">
+		<p>Ort: Dietikon</p>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<p>Ort: ....</p>
+	</div>
+</div>
+	
+<div id="footer">Copyright © Alle Rechte gehören Patrick Höscheler</div>
+</body>
+</html>
+

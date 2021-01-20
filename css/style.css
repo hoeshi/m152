@@ -1,0 +1,219 @@
+h1 {
+	background-image: url("../img/smoke.jpg");
+	text-align: center;
+	color: white;
+	height: 100px;
+	background-size: cover;
+	font-size: 60px;
+	padding-top: 10px;
+	-webkit-text-stroke: 1px red;
+	font-family: arial;
+	border-radius: 10px;
+}
+
+h2 {
+	font-size: 40px;
+	font-family: arial;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background: black;
+	outline-style: auto;
+	width: 100%;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: arial;
+}
+
+li a:hover{ 
+	background: white;
+	color: black;
+}
+
+body {
+	background-color:#484848 ;
+	position: relative;
+	height: 800px;
+	
+}
+
+.active {
+	background: white;
+	color: black;
+}
+
+li{
+	float:right;
+	font-family: arial;
+}
+
+a {
+	display: block;
+	padding: 8px;
+	background: url("../img/button.jpg");
+	outline-style: auto;
+	outline-color: white;
+	
+}
+h2 {
+	color: white;
+	text-align: center;
+	padding-left: 10px;
+}
+
+.anti {
+	float:left;
+	color: white;
+	display: block;
+	padding: 8px;
+	outline-style: auto;
+	outline-color: white;
+	padding: 14px 16px;
+}
+
+.container {
+	text-align: center;
+	background: #6e6e6e6e;
+	display: flex;
+	min-height: 300px;
+}
+.Schauspieler {
+	text-align: left;
+}
+.About {
+	text-align: left;
+}
+
+main {
+	color: white;
+	text-align: left;
+	float: left
+	
+}
+
+.index {
+	text-align: center;
+}
+
+#footer {
+    background-color: #404040;
+    bottom: -341px;
+    text-align: left;
+    color: white;
+    position: absolute;
+    width: 100%;
+    left: -5px;
+   	
+   	
+}
+
+.pictures {
+	float: left;
+	padding-left: 10px;
+	padding: 10px;
+}
+
+#pic {
+	padding-bottom: 20px;
+}
+
+#pic2 {
+	padding-bottom: 20px;
+}
+
+#pic3 {
+	padding-bottom: 20px;
+}
+
+
+.ort {
+	float: right;
+	
+}
+
+.text {
+	text-align: left;
+	width: 700px;
+	height: 500px;
+	
+	color: white;
+}
+
+.infos {
+	text-align: left;
+	
+}
+
+.download {
+	background-color: green;
+	border: none;
+	padding: 12px 30px;
+	cursor: pointer;
+  	font-size: 20px;
+	color: white;
+	border-radius: 20px;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a.active {
+  background-color: white;
+  color: black;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 99%
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+#pictext {
+	padding-top: 5px;
+	float: left;
+	width: 500px;
+	display: inline;
+	padding: 10px;
+	color: white;
+	text-align: left;
+	font-size: 20px;
+	
+}
+
+p {
+	padding-top: -10px
+}
+
+#dietikon{
+	padding-left: 20px;
+	width: 500px;
+}
+
+#bhf {
+	float: left;
+	padding-left: 20px;
+}

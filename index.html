@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>home</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+		<div id="navbar">
+		  	<ul>
+				<li class="anti">Smoking kills</li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="filminfos.html">Filminfos</a></li>
+				<li><a href="schauspieler.html">Schauspieler</a></li>
+				<li><a class="active" href="#">Werbung</a></li>
+			</ul>
+			
+		</div>
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+	<h1> Smoking Kills</h1>
+	
+		
+
+	<h2>Werbung</h2>
+<div class="index">
+  
+<video width="1024" height="512" controls>
+  <source src="video/movie.mp4" type="video/mp4">
+</video>
+	<br>
+	<button class="download">Download</button>
+</div>
+	
+
+<div id="footer">
+	Copyright © Alle Rechte gehören Patrick Höscheler
+	</div>
+</body>
+</html>
+
